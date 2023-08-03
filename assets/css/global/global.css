@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+@font-face {
+  font-family: 'Tektur', cursive;
+  src: url(/assets/fonts/Tektur-VariableFont_wdth\,wght.ttf) format('truetype');
+}
