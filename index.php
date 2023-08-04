@@ -13,8 +13,9 @@
     ?>
     <?php include("./components/liens_reseaux.php")
     ?>
-
-
+    <?php include("./components/accueil.php")
+    ?>
+    <script src="./assets/js/liens_reseaux.js"></script>
 </body>
 
 </html>

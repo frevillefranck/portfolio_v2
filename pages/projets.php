@@ -13,19 +13,11 @@
 <body>
     <?php include("../components/nav.php")
     ?>
-    <div id="slider">
-        <div id="precedent">
-            < </div>
-                <div id="div_projet">
-                    <img src="../images/carapuce.png" alt="carapuce" id="slide">
-                    <p id="nom_projet">Projet Carapuce </p>
-                </div>
-                <div id="suivant"> ></div>
-        </div>
-
-    </div>
+    <?php include("../components/projets.php")
+    ?>
     <?php include("../components/liens_reseaux.php")
     ?>
+    <script src="../assets/js/liens_reseaux.js"></script>
 </body>
 
 </html>

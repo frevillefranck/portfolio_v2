@@ -5,8 +5,6 @@ function OuvrirPage() {
     window.open("/images/CV.png")
 }
 
-
-
 const section_graph = document.getElementById("section_graph");
 const barre_html = document.querySelector("#barre_html")
 const barre_css = document.querySelector("#barre_css")

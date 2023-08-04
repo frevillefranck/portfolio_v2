@@ -19,6 +19,8 @@
     ?>
 
     <script src="../assets/js/competences.js"></script>
+    <script src="../assets/js/liens_reseaux.js"></script>
+
 </body>
 
 </html>

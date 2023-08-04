@@ -29,12 +29,29 @@
   font-family: 'Tektur', cursive;
   color: #fff;
   text-decoration: none;
+  background: 
+     linear-gradient(90deg, transparent, white, transparent) 
+    bottom /var(--d, 0) 5px no-repeat;
+  transition: 0.5s;
+
   padding: 3px 5px;
+}
+#nav_liens a:hover{
+  --d: 100%;
+}
+@keyframes hover {
+0%{
+  text-decoration: none;
+}  
+100%{
+  text-decoration: underline 4px white;
+}
 }
 @media screen and (max-width: 768px) {
   #navbar {
     flex-direction: column;
     align-items: center;
+    
   }
   #logo {
     margin-bottom: 10px;
@@ -42,12 +59,17 @@
 
   #nav_liens {
     margin-top: 10px;
+    transition: 1s;
   }
   #nav_liens a {
     font-size: 16px;
+    transition: 1s;
+
   }
   #nav_liens li {
     margin-right: 0;
     margin-bottom: 10px;
+    transition: 1s;
+
   }
 }
