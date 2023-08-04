@@ -1,0 +1,126 @@
+#div_CV{
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    top: 10vh;
+    left: 10vh;
+    background-image: url("/images/CV.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 424px;
+    cursor: pointer;
+    transition: 1s;
+}
+#opacity_CV{
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0;
+    width: 424px;
+    height: 600px;
+    display: flex;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    transition: 1s;
+}
+#div_CV:hover{
+    #p_CV{
+        display: flex;
+    }
+    #opacity_CV{
+        transition: 1s;
+        opacity: 0.7;
+    }
+}
+#section_graph{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     top: 20px;  
+    font-family: "Tektur", cursive;
+    width: 500px;
+    height: 400px;
+    padding: 2vh;
+    border-radius: 20px;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    box-shadow:5px 5px 5px #333;
+    transition: 1s;
+}
+#section_graph h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+}
+.nom_competence{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.barre_vide{
+    background-color: white;
+border-radius: 5px;
+    width: 100%;
+}
+#barre_html, #barre_css, #barre_php, #barre_js, #barre_SQL{
+    background-color: #456891;
+    border-radius: 5px;
+    text-align: center;
+    width: 0%;
+    transition: 1s;
+}
+#div_CV_comp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width:1250px) {
+    #div_CV_comp{
+        justify-content: none;
+        align-items: none;
+        transition: 2s;
+        
+    }
+    #div_CV{
+        left: 0;
+        transition: left 1s;
+    }
+    #section_graph{
+        transition: left 2s;
+        
+    }
+    
+}
+@media screen and (max-width:1150px) {
+    #div_CV_comp{
+        flex-direction: column-reverse;
+    }
+    #section_graph{
+        width: 380px;
+        height: auto;
+    }
+    #section_graph h2{
+        font-size: 30px;
+    }
+    .nom_competence{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:660px ) {
+    #div_CV{
+        left: 0;
+        transition: 1s;
+        width: auto;
+    }
+    #section_graph{
+        transition: 1s;
+        left: 0;
+        width: 380px;
+    }
+    
+}

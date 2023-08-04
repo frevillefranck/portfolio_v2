@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/index.css">
     <script type="module" src="../assets/js/main.js"></script>
-    <!-- <script type="module" src="../assets/js/lib/functions.js"></script> -->
+
     <title>Projets</title>
 </head>
 
@@ -14,17 +14,18 @@
     <?php include("../components/nav.php")
     ?>
     <div id="slider">
-        <div id="div_projet">
-            <img src="../images/carapuce.png" alt="carapuce" id="slide">
-            <p id="nom_projet">Projet Carapuce </p>
-        </div>
         <div id="precedent">
             < </div>
+                <div id="div_projet">
+                    <img src="../images/carapuce.png" alt="carapuce" id="slide">
+                    <p id="nom_projet">Projet Carapuce </p>
+                </div>
                 <div id="suivant"> ></div>
         </div>
 
     </div>
-
+    <?php include("../components/liens_reseaux.php")
+    ?>
 </body>
 
 </html>

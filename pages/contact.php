@@ -34,7 +34,8 @@
             </form>
         </div>
     </div>
-
+    <?php include("../components/liens_reseaux.php")
+    ?>
 </body>
 
 </html>
