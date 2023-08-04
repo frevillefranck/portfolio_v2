@@ -13,7 +13,7 @@ const slide = [
   },
 ];
 let numero = 0;
-function ChangeSlide(sens) {
+export function ChangeSlide(sens) {
   numero = numero + sens;
   if (numero < 0) {
     numero = slide.length - 1;

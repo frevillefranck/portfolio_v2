@@ -1,12 +1,12 @@
 #slider {
-  /* position: relative; */
+  position: relative;
   width: 80rem;
-  /* margin: auto; */
   top: 25vh;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+  transition: 2s;
 }
 #precedent,
 #suivant {
@@ -31,11 +31,16 @@
 #div_projet p {
   text-align: center;
   font-size: 20px;
+  transition: 1s;
 }
 #slide {
   display: flex;
   width: 300px;
   height: 300px;
+}
+#nom_projet {
+  font-size: 24px;
+  font-family: 'Tektur', cursive;
 }
 @media screen and (max-width: 768px) {
 }
