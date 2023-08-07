@@ -3,8 +3,8 @@
     <div id="precedent">
         < </div>
             <div id="div_projet">
-                <img src="../images/carapuce.png" alt="carapuce" id="slide">
-                <p id="nom_projet">Projet Carapuce </p>
+                <img src="../images/portfolio.png" alt="portfolio" id="slide">
+                <p id="nom_projet">Mon Portfolio </p>
             </div>
             <div id="suivant"> ></div>
     </div>
