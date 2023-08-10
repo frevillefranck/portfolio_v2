@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
 }
 
 #container {
@@ -19,7 +18,7 @@
 
 #h1_form {
   text-align: center;
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
 
   margin-bottom: 50px;
 }
@@ -36,8 +35,8 @@ label {
   margin-bottom: 5px;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   box-sizing: border-box;
   width: 100%;
@@ -47,8 +46,8 @@ textarea {
   border: 1px solid #eee;
   border-radius: 5px;
 }
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   height: 35px;
 }
 textarea {

@@ -1,54 +1,56 @@
-#titre_accueil{
-    margin-top: 30px;
-    text-align: center;
-    text-decoration: underline 5px ;
-    text-underline-position:  left;
-    font-family: 'Tektur',cursive;
+#titre_accueil {
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: underline 5px;
+  text-underline-position: left;
+  font-family: "Tektur", cursive;
 }
-#div_presentation{
-    display: flex;
-    align-items: center;
-    margin-top: 10rem;
+#div_presentation {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
-#div_img_dev{
-    display: flex;
-    position: relative;
-
+#div_img_dev {
+  display: flex;
+  position: relative;
 }
-#div_img_dev img{
-    border-radius: 20px;
-    height: 470px;
+#div_img_dev img {
+  border-radius: 20px;
+  height: 470px;
 }
-#p_presentation{
-    display: flex;
-    text-align: center;
-    font-size: 24px;
-    line-height: 3rem;
-
+#p_presentation {
+  display: flex;
+  margin-left: 2rem;
+  text-align: center;
+  font-size: 24px;
+  line-height: 3rem;
 }
-@media screen and (max-width:1400px){
-    #div_img_dev img{
-        height: 350px;
-    }
-    #p_presentation{
-        font-size: 20px;
-        transition: 0.5s
-    }
-    #div_presentation{
-        flex-direction: column;
-        margin-top: 5rem;
-        transition: 1s;
-    }
+@media screen and (max-width: 1400px) {
+  #div_img_dev img {
+    height: 350px;
+  }
+  #p_presentation {
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  #div_presentation {
+    flex-direction: column;
+    margin-top: 5rem;
+    transition: 1s;
+  }
 }
-@media screen and (max-width:690px){
-    #div_img_dev img{
-        height: 250px;
-    }
-    #div_presentation{
-        margin-top: 2rem;
-    }
-    #p_presentation{
-        font-size: 15px;
-        transition: 0.5s
-    }
-} ;   
+@media screen and (max-width: 690px) {
+  #div_img_dev img {
+    height: 250px;
+  }
+  #div_presentation {
+    margin-top: 2rem;
+  }
+  #p_presentation {
+    margin-left: 0;
+    font-size: 15px;
+    transition: 0.5s;
+  }
+}

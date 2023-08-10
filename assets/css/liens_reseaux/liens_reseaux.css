@@ -5,31 +5,31 @@
   width: 3rem;
   height: 8rem;
   top: 20%;
-  background-color: #333;
+  background-color: white;
   left: -2rem;
   transition: 1s;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-.span_liens{
+.span_liens {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-#github{
+#github {
   background-image: url("/images/github-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#linkedin{
+#linkedin {
   background-image: url("/images/logo_linkedin.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#div_liens:hover { 
+#div_liens:hover {
   display: flex;
   left: 2px;
   transition: 1s;
