@@ -1,5 +1,10 @@
 <div id="div_liens">
-    <span class="span_liens" id="github"></span>
-    <span class="span_liens" id="linkedin"></span>
+    <div id="bouton"></div>
+    <div id="div_github">
+        <a class="liens" href="https://stackoverflow.com" target="_blank" id="github"></a>
+    </div>
 
+    <div id="div_linkedin">
+        <a class="liens" href="https://stackoverflow.com" target="_blank" id="linkedin"></a>
+    </div>
 </div>

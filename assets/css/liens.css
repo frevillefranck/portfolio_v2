@@ -1,22 +1,18 @@
 #div_liens {
   position: absolute;
   display: flex;
-  background-image: url("/images/share.png");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
   border-radius: 50%;
   width: 4rem;
   height: 4rem;
   top: 100px;
   transition: 1s;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  z-index: 2;
 }
 #div_github,
 #div_linkedin {
+  display: flex;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,21 +21,30 @@
   width: 4rem;
   height: 4rem;
   transition: 1s;
-  flex-wrap: wrap;
+  top: 100%;
   align-items: center;
   justify-content: space-around;
+  transform: translate(0%, -100%);
+}
+#bouton {
+  width: 4rem;
+  height: 4rem;
+  background-image: url("/images/share.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: 2;
 }
 #div_github {
-  top: 100px;
   background-image: url("/images/github-logo.png");
   z-index: 1;
+  transition: 1s;
 }
 #div_linkedin {
   background-image: url("/images/logo_linkedin.webp");
-  top: 100px;
   z-index: 0;
 }
-.span_liens {
+.liens {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -47,11 +52,16 @@
 #div_liens.click {
   background-image: url("/images/cancel_5392784.png");
 }
-#div_github.click {
+#div_liens.click #div_github {
+  display: flex;
   translate: 40px 4rem;
   transition: 1s;
 }
-#div_linkedin.click {
+#div_liens.click #div_linkedin {
+  display: flex;
   translate: 40px -4rem;
   transition: 1s;
+}
+#div_liens.click #bouton {
+  background-image: url("/images/cancel_5392784.png");
 }

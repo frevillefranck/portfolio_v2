@@ -13,7 +13,8 @@
     ?>
     <?php include("../components/liens_reseaux.php")
     ?>
-    <script src="../assets/js/liens_reseaux.js"></script>
+    <script type="module" src="../assets/js/main.js"></script>
+
 
 </body>
 
