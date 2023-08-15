@@ -7,9 +7,14 @@
   width: 5rem;
   height: 5rem;
   top: 50rem;
-  /* left: 50rem; */
   align-items: center;
   justify-content: space-around;
+}
+#section_Liens{
+  display: flex;
+  justify-content: center;
+  
+
 }
 #div_github,
 #div_linkedin {
@@ -22,7 +27,6 @@
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
-
   top: 100%;
   align-items: center;
   justify-content: space-around;
@@ -55,15 +59,32 @@
   background-image: url("/images/cancel_5392784.png");
 }
 #div_liens.click #div_github {
-  display: flex;
-  translate: 40px 4rem;
+  translate: 5rem 4rem;
   transition: 1s;
 }
 #div_liens.click #div_linkedin {
-  display: flex;
-  translate: 40px -4rem;
+  translate: -5rem 4rem;
   transition: 1s;
 }
 #div_liens.click #bouton {
   background-image: url("/images/cancel_5392784.png");
 }
+@media screen and (max-width: 768px){
+  #div_liens, #div_github, #div_linkedin{
+    width: 4rem;
+  height: 4rem;
+}
+#div_liens{
+
+  top:52rem;
+}
+#div_liens.click #div_github {
+  translate: 5rem;
+  transition: 1s;
+}
+#div_liens.click #div_linkedin {
+  translate: -5rem;
+  transition: 1s;
+}
+}
+  

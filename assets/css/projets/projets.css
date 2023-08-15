@@ -1,5 +1,6 @@
 #titre_projet {
   margin-top: 30px;
+  color: #fff;
   text-align: center;
   text-decoration: underline 5px;
   text-underline-position: left;
@@ -7,12 +8,11 @@
 }
 #slider {
   position: relative;
-  top: 20vh;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  transition: 2s;
 }
 #precedent,
 #suivant {
@@ -22,6 +22,7 @@
   opacity: 0;
   font-size: 100px;
   margin: auto;
+  text-decoration: none;
   padding: 10px;
 }
 #suivant {
@@ -37,16 +38,15 @@
 #div_projet p {
   text-align: center;
   font-size: 26px;
-  /* border-radius: 20px; */
-  margin-top: 20px;
-  transition: 1s;
+  color: #fff;
+  margin-top: 2rem;
 }
 #slide {
   display: flex;
   cursor: pointer;
   border-radius: 20px;
-  width: 533px;
-  height: 400px;
+  /* width: 533px; */
+  height: 450px;
 }
 #nom_projet {
   font-size: 24px;
@@ -54,8 +54,7 @@
 }
 @media screen and (max-width: 768px) {
   #slide {
-    width: 333px;
-    height: 250px;
+    height: 350px;
     transition: 1s;
   }
   #precedent,

@@ -4,6 +4,7 @@
   text-decoration: underline 5px;
   text-underline-position: left;
   font-family: "Tektur", cursive;
+  color: #fff;
 }
 #div_presentation {
   display: flex;
@@ -23,6 +24,8 @@
 #p_presentation {
   display: flex;
   margin-left: 2rem;
+  color: #fff;
+  
   text-align: center;
   font-size: 24px;
   line-height: 3rem;

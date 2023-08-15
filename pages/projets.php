@@ -14,8 +14,8 @@
     ?>
     <?php include("../components/projets.php")
     ?>
-    <?php include("../components/liens_reseaux.php")
-    ?>
+    <!-- <?php include("../components/liens_reseaux.php")
+            ?> -->
     <script type="module" src="../assets/js/main.js"></script>
     <!-- <script src="../assets/js/liens_reseaux.js"></script>
     <script src="../assets/js/liens_reseaux.js"></script> -->

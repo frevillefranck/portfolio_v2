@@ -46,16 +46,14 @@
     height: 400px;
     padding: 2vh;
     border-radius: 20px;
-    color: white;
-    background-color: #333;
-    cursor: pointer;
+    color: #292929;
+    background-color: #fff;
     box-shadow:5px 5px 5px #333;
-    transition: 1s;
 }
 #section_graph h2{
     text-align: center;
     font-size: 40px;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px #292929;
 }
 .nom_competence{
     margin-top: 10px;
@@ -63,7 +61,8 @@
     font-size: 20px;
 }
 .barre_vide{
-    background-color: white;
+    color: #292929;
+    background-color: #292929;
 border-radius: 5px;
     width: 100%;
 }
@@ -74,6 +73,66 @@ border-radius: 5px;
     width: 0%;
     transition: 1s;
 }
+#barre_html{
+    width: 70%;
+    animation: html 2.5s normal;
+}
+#barre_css{
+    width: 60%;
+    animation: css 2.5s normal;
+}
+#barre_php{
+    width: 60%;
+    animation: php 2.5s normal;
+}
+#barre_js{
+    width: 50%;
+    animation: js 2.5s normal;
+}
+#barre_SQL{
+    width: 30%;
+    animation: sql 2.5s normal;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    } 
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    } 
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    } 
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    } 
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    } 
+}
 #div_CV_comp{
     display: flex;
     align-items: center;
@@ -83,8 +142,7 @@ border-radius: 5px;
     #div_CV_comp{
         justify-content: none;
         align-items: none;
-        transition: 2s;
-        
+        transition: 2s;    
     }
     #div_CV{
         left: 0;
@@ -92,9 +150,7 @@ border-radius: 5px;
     }
     #section_graph{
         transition: left 2s;
-        
     }
-    
 }
 @media screen and (max-width:1150px) {
     #div_CV_comp{
